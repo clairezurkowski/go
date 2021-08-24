@@ -1,0 +1,189 @@
+ /*Style sheet for Claire Zurkowski, U of Chicago */
+/* Copyright (c) 2016 by Andrew J. Campbell */
+
+@font-face {
+	font-family:open-sans;
+	src:url(./open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family:open-sans;
+	src:url(./open-sans/OpenSans-Bold.ttf);
+	font-weight:bold;
+}
+
+@font-face {
+	font-family:open-sans;
+	src:url(./open-sans/OpenSans-Semibold.ttf);
+	font-weight:600;
+}
+
+@font-face {
+	font-family:open-sans;
+	src:url(./open-sans/OpenSans-Italic.ttf);
+	font-style:italic;
+}
+
+@font-face {
+	font-family:ebgaramond;
+	src:url(./eb-garamond/EBGaramondSC.otf);
+}
+
+a:link, a:visited {
+	text-decoration:none; 
+	color:#000000;
+}	
+
+a:hover, a:active {
+	color:#FFE4E1;
+}
+
+body {
+a:hover, a:active {
+	color:#767676;
+}
+	.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background-repeat: repeat-y
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    height: 100%;
+    background-repeat: repeat-y
+}
+
+a.navbar:link, a.navbar:visited {
+	display:block;
+	width:205px;
+	padding:10px;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:1.0em;
+	font-weight:normal;
+	text-align:center;
+}
+
+a:hover, a:active {
+	color:#767676;
+}
+
+.container {
+	background-color:#F0FFFF; 
+	width:900px; 
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top:0px;
+}
+
+.header {
+	font-family:open-sans, Arial, sans-serif; 
+	font-size:2.5em; 
+	color:#FFFFF0;
+	padding-left:5%; padding-right:5%;
+	padding-top:10px; padding-bottom:10px;
+}
+
+.navbar {
+	background-color:#FFF0F5;
+}
+	
+ul.navbar {
+	list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	overflow:hidden;
+	}
+
+li.navbar {
+	float:left; 
+	font-family:open-sans, Arial, sans-serif;
+}
+
+a.navbar:link, a.navbar:visited {
+	display:block;
+	width:205px;
+	padding:10px;
+	background-color:#FAEBD7;
+	text-decoration:none;
+	color:#C0C0C0;
+	font-size:1.0em;
+	font-weight:normal;
+	text-align:center;
+}
+
+a.navbar:hover, a.navbar:active {
+	color:#FFFACD;
+	font-weight:600;
+}
+
+a.currentpage {
+	display:block;
+	width:205px;
+	font-size:1.0em;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+	background-color:#FFFFFF;
+	color:#F5DEB3;
+}
+
+.content {
+	font-family:open-sans, Arial, sans-serif;
+	font-size:0.875em; 
+	color:#0047AB;
+	width:90%;
+	padding:5%;
+}
+
+.imgrt {
+	float:right;
+	width:150px;
+	margin-left:5%;
+	font-size:0.875em;
+	text-align:center;
+}
+
+.imgrt img {
+	width:100%;
+	border: 1px solid black;
+}
+
+.footer {
+	background-color:#FFF0F5;
+	margin-bottom:20px;
+	font-family:open-sans, Arial, sans-serif; 
+	color:#FFFFFF;
+	float:left;
+}
+
+p.footer {
+	padding-left:5%;
+	font-family:open-sans, Arial, sans-serif; 
+	font-size:0.75em;
+	color:#FFFFFF;
+	float:left;
+}
+
+a.footer:link, a.footer:visited {
+	text-decoration:none;
+	color:#FFFFFF;
+	margin:0px;
+	float:none;
+}
+
+a.footer:hover, a.footer:active {
+	color:#EEEEEE;
+}
+
